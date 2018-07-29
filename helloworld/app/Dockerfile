@@ -1,6 +1,6 @@
 FROM golang
 
-Add . /go/src/github.com/ryutah/knaeive-sample/helloworld/app
+ADD . /go/src/github.com/ryutah/knaeive-sample/helloworld/app
 
 RUN go install github.com/ryutah/knaeive-sample/helloworld/app
 
